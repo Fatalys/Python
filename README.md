@@ -16,5 +16,5 @@ Les données à utiliser : [MNIST](https://osf.io/jda6s/)
 
 ## OpenAIgym
 
-Les fichiers OpenAI créent les agents qui résolvent les environnements CartPole et MountainCar : [environnement OpenAI](https://gym.openai.com/envs/#classic_control)
+Les fichiers OpenAI créent les agents qui résolvent les environnements CartPole, MountainCar et Acrobot : [environnement OpenAI](https://gym.openai.com/envs/#classic_control)
 <br/> Test permet de tester les agents après avoir créé la table Q.
