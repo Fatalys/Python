@@ -55,8 +55,6 @@ for i_episode in range(epoch):
             action = random.randint(0, 2)
         else:
             action = np.argmax(Table_Q[new_etat])
-
-        #action = random.randint(0, 2)
         
         observation, reward, done, info = env.step(action) 
         new_etat = etat_discret(observation)
@@ -64,7 +62,6 @@ for i_episode in range(epoch):
         # MAJ DE LA TABLE Q
         Table_Q[old_etat][action] = (1-alpha)*Table_Q[old_etat][action] + alpha*(reward+gamma*max(Table_Q[new_etat]))
         old_etat = new_etat
-        #print(new_etat)
         
         if reward == 0:
             Reussie += 1
