@@ -33,7 +33,7 @@ epoch = 20000
 Epsilon = np.linspace(0.99,0.05, epoch)
 alpha = 0.1
 gamma = 0.98
-Moyenne = 0
+Reussie = 0
 
 for i_episode in range(epoch):
     
