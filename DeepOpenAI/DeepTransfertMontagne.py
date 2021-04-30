@@ -14,7 +14,7 @@ import tensorflow as tf
 
 """
 Il s'agit d'un transfert de la Table Q vers un réseau de neurones
-Le réseau de neurone essaie de prédire la sortie de la Table Q
+Le réseau de neurones essaie de prédire la sortie de la Table Q
 Il faut au préalable créer la Table Q avec le fichier OpenAIMontagne
 """
 
