@@ -2,7 +2,7 @@
 
 ## IAlive
 
-Notebook afin d'illustrer le live d'IA que j'ai fais pour préparer les partiels
+Notebook afin d'illustrer le live d'IA que j'ai fait pour préparer les partiels
 
 ## Stage_YoungApp
 
