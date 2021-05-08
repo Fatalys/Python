@@ -22,4 +22,5 @@ Q-learning :
 
 ## DeepOpenAI
 
-Fait la même chose que le dossier décrit au dessus mais avec un réseau de neurones.
+Fait la même chose que le dossier décrit au dessus mais avec un réseau de neurones.<br/>
+![](AnimationDeepQlearning.gif)
